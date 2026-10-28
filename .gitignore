@@ -1,0 +1,28 @@
+# Каталог провайдеров и кэша (создаётся командой init)
+.terraform/
+
+# Файлы состояния и их резервные копии (могут содержать секреты)
+*.tfstate
+*.tfstate.*
+
+# Файлы планов
+tfplan
+*.tfplan
+
+# Логи падений
+crash.log
+crash.*.log
+
+# Файлы значений переменных (часто содержат секреты)
+*.tfvars
+*.tfvars.json
+
+# Файлы переопределений
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Локальные настройки CLI
+.terraformrc
+terraform.rc
